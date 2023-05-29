@@ -1,0 +1,144 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body {
+    background: #0F172A;
+
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 62px;
+    letter-spacing: -2px;
+    color: #FFFFFF;
+    margin-left: 896px;
+    margin-top: 130px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #94A3B8;
+    width: 449px;
+    margin-left: 896px;
+    margin-top: 20px;
+}
+
+#google {
+    margin-left: 896px;
+    margin-top: 20px;
+    background: #1E293B;
+    border-radius: 35px;
+    border: none;
+    width: 444px;
+    height: 60px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.2px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+    cursor: pointer;
+    
+}
+
+#google:hover{
+    opacity: 0.3;
+}
+
+#img-google {
+    position: absolute;
+    right: 850px;
+    bottom: 636px;
+}
+
+
+input,
+#name,
+#email,
+#password {
+    margin-left: 896px;
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    padding: 17px 22px;
+    gap: 13px;
+    width: 449px;
+    height: 60px;
+    border: 1px solid #334155;
+    border-radius: 35px;
+    background: #0F172A;
+
+}
+
+label,
+#name,
+#email,
+#password {
+    margin-left: 896px;
+    margin-bottom: 20px;
+}
+
+
+#create-account {
+    margin-left: 896px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 201px;
+    height: 55px;
+    background: #2563EB;
+    border-radius: 50px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.2px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+#create-account:hover{
+    opacity: 0.5;
+}
+
+#dont-account {
+    margin-left: 896px;
+    color: #2563EB;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    align-items: center;
+    cursor: pointer;
+}
+
+#dont-account:hover{
+    color: white;
+
+
+}
+
+span{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    align-items: center;
+    color: #64748B;
+}
+
+#img-initial{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    border-radius: 40px;
+    
+}
